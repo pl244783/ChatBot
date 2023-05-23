@@ -1,0 +1,25 @@
+.body{
+    background: rgb(42, 41, 39);
+    color:rgb(255,255,255);
+    height: 100rem;
+    width: 100%;
+    padding:2%;
+    overflow: auto;
+    border-style:hidden
+}
+
+.banner{
+    background-color:black;
+    color: rgb(255,255,255);
+    height: 2rem;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.bannerText{
+    text-align: center;
+    font-size: 29px;
+    margin: auto;
+    overflow: inherit;
+}
