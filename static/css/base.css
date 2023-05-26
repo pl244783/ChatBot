@@ -1,0 +1,33 @@
+body{
+    background: rgb(42, 42, 42);
+    color:rgb(255,255,255);
+    height: 100%;
+    margin: 0;
+    padding:2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.banner{
+    background-color:black;
+    color: rgb(255,255,255);
+    width: 100%;
+}
+
+.bannerText{
+    text-align: center;
+    font-size: 29px;
+}
+
+.main {
+  margin-top: 2%;
+  width: 100%;
+  align-self: flex-start;
+  overflow: auto;
+}
+
+.titleText{
+    font-size: 29px;
+}
