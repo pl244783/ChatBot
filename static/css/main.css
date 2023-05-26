@@ -5,12 +5,12 @@
     margin-top: 1%;
     background: rgb(20, 20, 20);
     overflow-y: hidden;
-    overflow-x: auto;
 }
 
 .sideScroller{
     height: 100%;
     width: 200%;
+    overflow: auto;
 }
 
 .AIChar{
