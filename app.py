@@ -22,3 +22,5 @@ logger.addHandler(handler)
 
 if __name__ == '__main__':
     app.run(host="0.0.0.0", port=8888, threaded=True, debug=True)
+
+    #MAKE C: the logo NOW!!!
