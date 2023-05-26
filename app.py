@@ -7,6 +7,10 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
 
+@app.route('/chat')
+def chat():
+    return render_template('chat.html')
+
 class ExcludeFilter(logging.Filter):
     def filter(self, record):
         message = record.getMessage()
@@ -23,4 +27,4 @@ logger.addHandler(handler)
 if __name__ == '__main__':
     app.run(host="0.0.0.0", port=8888, threaded=True, debug=True)
 
-    #MAKE C: the logo NOW!!!
+#MAKE C: the logo NOW!!!
