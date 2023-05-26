@@ -1,5 +1,5 @@
 body{
-    background: rgb(42, 41, 39);
+    background: rgb(42, 42, 42);
     color:rgb(255,255,255);
     height: 100%;
     margin: 0;
@@ -23,5 +23,43 @@ body{
 
 .main {
   margin-top: 2%;
+  width: 100%;
   align-self: flex-start;
+  overflow: auto;
+}
+
+.titleText{
+    font-size: 29px;
+}
+
+.AIContainer{
+    height: 300px;
+    width: 100%;
+    margin-top: 1%;
+    background: rgb(20, 20, 20);
+    overflow-y: hidden;
+    overflow-x: auto;
+}
+
+.sideScroller{
+    height: 100%;
+    width: 200%;
+}
+
+.AIChar{
+    margin: 0.53%;
+    height: 91%;
+    width: 8%;
+    background: rgb(64, 64, 64);
+    float: left;
+}
+
+.AIPicture{
+    padding: 2%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 64px;
+    height: 64px;
+    background: rgb(124, 124, 124)
 }
