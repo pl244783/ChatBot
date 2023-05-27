@@ -6,14 +6,18 @@
     overflow-x: hidden;
 }
 
-.chatScroller{
-    padding: 2%;
-    height: 90%;
-    width: 90%;
-    overflow: auto;
+.inputContainer{
+    margin-left: auto;
+    width: 80%;
+    height: 100px;
+    background: rgb(64, 64, 64);
+    overflow-x: hidden;
 }
 
-.messageContainer{
-    line-height: 1;
-    padding: 0.5%
+#inputField{
+    background: inherit;
+    width: 100%;
+    height: 100%;
+    overflow: inherit;
+    color: rgb(220, 220, 220);
 }
