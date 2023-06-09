@@ -8,16 +8,17 @@
   </head>
     <body>
       <div class="main">
-        <div class="chatContainer"></div>
+        <div class="chatContainer"></div> 
         <div class="inputContainer">
-          <input type="text" id="inputField">
+          <textarea id="inputField" rows="4" cols="50"></textarea>
         </div>
         <script>
           const chatContainer = document.querySelector('.chatContainer');
           const inputField = document.getElementById('inputField');
     
           inputField.addEventListener('keydown', function(event) {
-            if (event.key === 'Enter') {
+            if (event.key === 'Enter' && !event.shiftKey) {
+              event.preventDefault();
               const inputText = inputField.value.trim();
     
               if (inputText !== '') {
@@ -25,8 +26,8 @@
                 newLine.textContent = inputText;
                 chatContainer.appendChild(newLine);
                 chatContainer.scrollTop = chatContainer.scrollHeight;
-                inputField.value = '';
               }
+              inputField.value = '';
             } 
           });
         </script>
